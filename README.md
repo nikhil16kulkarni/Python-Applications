@@ -11,6 +11,9 @@ This repository contains 10 Python Real World Applications/Projects. </br></br>
 
 <b>App2</b>  -  Volcano & Population Web Map </br> </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this application, if you open the Map4.html file in the browser, you'll see the world map. Initially you'll see the volcanoes that happened in the United States of America as the circles. The colours inside the circles describe the elevation. Also you will see different countries with different colours based on the population of that country(Red - Population > 20000000, Orange - Population in between 20000000 & 10000000, Green - Population < 10000000). At the top right corner, you'll have the option to see particular map. </br>
 
+<img src="images/map1.PNG"> </br> <img src="images/map2.PNG"> </br> <img src="images/map3.PNG"> </br>
+
+
 ***
 
 <b>App3</b>  -  Personal Website </br>
