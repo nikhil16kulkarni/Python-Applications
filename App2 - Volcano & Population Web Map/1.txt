@@ -1,0 +1,46 @@
+C:\Users\KULKARNI>python
+Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import folium
+>>> dir(folium)
+['Choropleth', 'Circle', 'CircleMarker', 'ClickForMarker', 'ColorLine', 'ColorMap', 'CssLink', 'CustomIcon', 'Div', 'DivIcon', 'Element', 
+'FeatureGroup', 'Figure', 'FitBounds', 'GeoJson', 'GeoJsonPopup', 'GeoJsonTooltip', 'Html', 
+'IFrame', 'Icon', 'JavascriptLink', 'LatLngPopup', 'LayerControl', 'LinearColormap', 'Link', 'MacroElement', 'Map', 'Marker', 'PolyLine', 
+'Polygon', 'Popup', 'Rectangle', 'RegularPolygonMarker', 'StepColormap', 'TileLayer', 'Tooltip', 'TopoJson', 'Vega', 'VegaLite', 'WmsTileLayer', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '__version__', '_version', 'branca', 'features', 'folium', 'map', 'raster_layers', 'sys', 'utilities', 'vector_layers']
+>>> help(folium.map)
+Help on module folium.map in folium:
+
+NAME
+    folium.map - Classes for drawing maps.    
+
+CLASSES
+    branca.element.Element(builtins.object)   
+        Popup
+    branca.element.MacroElement(branca.element.Element)
+        CustomPane
+        FitBounds
+        Icon
+        Layer
+            FeatureGroup
+^CTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\KULKARNI\AppData\Local\Programs\Python\Python38-32\lib\_sitebuiltins.py", line 103, in __call__
+    return pydoc.help(*args, **kwds)
+  File "C:\Users\KULKARNI\AppData\Local\Programs\Python\Python38-32\lib\pydoc.py", line 1908, in __call__
+    self.help(request)
+  File "C:\Users\KULKARNI\AppData\Local\Programs\Python\Python38-32\lib\pydoc.py", line 1967, in help
+    else: doc(request, 'Help on %s:', output=self._output)
+  File "C:\Users\KULKARNI\AppData\Local\Programs\Python\Python38-32\lib\pydoc.py", line 1687, in doc
+    pager(render_doc(thing, title, forceload))  File "C:\Users\KULKARNI\AppData\Local\Programs\Python\Python38-32\lib\pydoc.py", line 1466, in pager
+    pager(text)
+  File "C:\Users\KULKARNI\AppData\Local\Programs\Python\Python38-32\lib\pydoc.py", line 1487, in <lambda>
+    return lambda text: tempfilepager(plain(text), 'more <')
+  File "C:\Users\KULKARNI\AppData\Local\Programs\Python\Python38-32\lib\pydoc.py", line 1536, in tempfilepager
+    os.system(cmd + ' "' + filename + '"')    
+KeyboardInterrupt
+>>>
+>>> map=folium.Map(location=[80, -100])  
+>>> map
+<folium.folium.Map object at 0x1232E430>
+>>> map.save("Map1.html")
+>>> 
