@@ -16,9 +16,12 @@ This repository contains 10 Python Real World Applications/Projects. </br></br>
 
 ***
 
-<b>App3</b>  -  Personal Website </br>
-<b>App4</b>  -  Bookshop Database App </br>
-<b>App5</b>  -  Feel-Good Mobile App </br>
+<b>App3</b>  -  Website Blocker </br> </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this application, we can block the use of some websites for some limited time (i.e. During Working Hours). You can put the website link in the list which you'll find in the python program. You can also change the time in between you want to block the website (24 hr format). </br>
+
+***
+
+<b>App4</b>  -  Personal Website </br>
+<b>App5</b>  -  Bookshop Database App </br>
 <b>App6</b>  -  Webcam Motion Detector </br>
 <b>App7</b>  -  Real Estate Webscrapper </br>
 <b>App8</b>  -  Interactive Data Dashboard </br>
